@@ -5,13 +5,13 @@ metadata:
   namespace: argocd
 spec:
   destination:
-     namespace: nginx-name
+     namespace: nginxn
      server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: argocd projects
-    repoURL: "https://github.com/amitmaurya0712/argocd-project/tree/main/argocd%20projects"
-    targetRevision: master
+    path: argocd
+    repoURL: "https://github.com/amitmaurya0712/argocd-project/tree/main/argocd"
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
