@@ -9,7 +9,7 @@ spec:
      server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: nginx-name
+    path: argocd projects
     repoURL: "https://github.com/amitmaurya0712/argocd-project/tree/main/argocd%20projects"
     targetRevision: master
   syncPolicy:
