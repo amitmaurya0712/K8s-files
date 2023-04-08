@@ -1,0 +1,2 @@
+labels-worker-01 app1=new, disktype=ssd
+labels-worker-02 app=fix, disktype=hdd
